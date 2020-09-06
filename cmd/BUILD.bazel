@@ -5,6 +5,7 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/Panfilwk/ChoreBot/cmd",
     visibility = ["//visibility:private"],
+    deps = ["@in_gopkg_tucnak_telebot_v2//:telebot.v2"],
 )
 
 go_binary(
